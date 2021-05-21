@@ -30,17 +30,16 @@ body {
   margin: 20px;
 }
 
-@media (min-width:500px) {
-    .globalHeader{
-      margin-top: 60px;
-      margin-bottom: 100px;
-    }
+@media (min-width: 500px) {
+  .globalHeader {
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
 }
 
 .searchForm {
   display: flex;
   justify-content: space-between;
-  
 }
 
 @media (min-width: 500px) {
@@ -48,6 +47,7 @@ body {
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
+  }
 }
 
 .searchForm > input {
@@ -82,7 +82,7 @@ body {
   justify-content: space-between;
 }
 
-@media (min-width:500px) {
+@media (min-width: 500px) {
   .siteList {
     margin-left: 0;
     margin-right: -25px;
@@ -90,12 +90,11 @@ body {
   }
 }
 
-
 .siteList > li {
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
 }
 
-@media (min-width:500px) {
+@media (min-width: 500px) {
   .siteList > li {
     margin-right: 25px;
   }
@@ -137,10 +136,9 @@ body {
   cursor: default;
 }
 
-.siteList .site:hover >.close{
-  display:block ;
+.siteList .site:hover > .close {
+  display: block;
 }
-
 
 .siteList .addButton {
   width: 160px;
@@ -154,6 +152,7 @@ body {
   border-radius: 4px;
   height: 128px;
 }
+
 .siteList .addButton .icon {
   width: 64px;
   height: 64px;
@@ -163,5 +162,3 @@ body {
   width: 64px;
   height: 64px;
 }
-
-/*# sourceMappingURL=index.de60a1d7.css.map */
